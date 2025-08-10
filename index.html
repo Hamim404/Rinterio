@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <!-- DaisyUI CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link href="./output.css" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/14d25571fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="font-manrope">
+    <!-- Header -->
+    <header class="w-5/6 mx-auto">
+      <nav class="navbar shadow-xl ">
+        <div class="navbar-start">
+          <h3 class="text-2xl font-bold">
+            <i
+              class="fa-solid fa-arrow-right bg-lime-300 rounded-full p-1 -rotate-45"
+            ></i>
+            Rinterio
+          </h3>
+        </div>
+        <div class="navbar-center hidden xl:flex">
+          <ul class="menu-horizontal gap-10 text-gray-500">
+            <li class="cursor-pointer hover:text-gray-950"><a>Home</a></li>
+            <li class="cursor-pointer hover:text-gray-950"><a>Services</a></li>
+            <li class="cursor-pointer hover:text-gray-950"><a>Portfolio</a></li>
+            <li class="cursor-pointer hover:text-gray-950"><a>Blogs</a></li>
+            <li class="cursor-pointer hover:text-gray-950">
+              <a>Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="hidden sm:flex">
+            <a class="cursor-pointer"
+              ><i
+                class="fa-solid fa-magnifying-glass bg-white shadow-sm mr-2 p-2 rounded-full text-gray-500"
+              ></i
+            ></a>
+            <a class="cursor-pointer"
+              ><i
+                class="fa-solid fa-cart-shopping bg-white shadow-sm mr-2 p-2 rounded-full text-gray-500"
+              ></i
+            ></a>
+            <button class="btn bg-lime-300 rounded-full font-bold">
+              Book Consult<i
+                class="fa-solid fa-arrow-right text-white bg-stone-900 rounded-full p-1 -rotate-45"
+              ></i>
+            </button>
+          </div>
+          <div class="dropdown">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost flex xl:hidden"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 right-0 w-25 p-2 shadow text-gray-500"
+            >
+              <li class="cursor-pointer hover:text-gray-950"><a>Home</a></li>
+              <li class="cursor-pointer hover:text-gray-950">
+                <a>Services</a>
+              </li>
+              <li class="cursor-pointer hover:text-gray-950">
+                <a>Portfolio</a>
+              </li>
+              <li class="cursor-pointer hover:text-gray-950"><a>Blogs</a></li>
+              <li class="cursor-pointer hover:text-gray-950">
+                <a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="w-5/6 mx-auto">
+      <div class="hero min-h-screen">
+        <div class="hero-content flex-col">
+          <img
+            src="assets/banner.png"
+            class="w-100"
+          />
+          <div>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center px-10">A barn house of this design has a striking appearance</h1>
+            <p class="py-6 px-10 text-center text-gray-500">
+             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <button class="btn bg-lime-200 border-solid border-lime-300 mx-auto flex rounded-full">View Details<i
+              class="fa-solid fa-arrow-right bg-lime-300 rounded-full p-1 -rotate-45"
+            ></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+  </body>
+</html>
